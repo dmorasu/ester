@@ -1,0 +1,101 @@
+body{
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    
+}
+
+h1{
+    text-align: center;
+   
+    
+    
+}
+h2{
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-left:50%;
+    padding-top: 20px;
+}
+    
+   
+
+header{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #575756;
+    color: aliceblue;
+    font-weight: bold; 
+    
+    
+}
+
+#cc{
+    font-size: 0.6cm;
+}
+
+#consultar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    background-color: #e4d79c;
+    border-radius: 6px;
+    border: 2px solid #16171a;
+}
+
+#consultar:hover{
+    color: #e4d79c;
+    background-color: #ffffff;
+}
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+  }
+
+
+#contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,3fr);
+    background: rgb(32,32,36);
+    background: linear-gradient(90deg, rgba(32,32,36,1) 0%, rgba(228,215,156,0.44021358543417366) 38%, rgba(233,237,238,1) 100%);
+    padding-bottom: 10%;
+    grid-template-columns: 2;
+    
+
+}
+
+#datos{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+
+footer{
+    display: grid;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #575756;
+    
+    color: aliceblue;
+    
+}
+a { text-decoration: none; 
+    color:aliceblue;}
