@@ -13,7 +13,17 @@ btnconsultar.onclick = function ola() {
         { cedula: '1128437044', estado: 1 },
         { cedula: '1017255391', estado: 2 },
         { cedula: '21667480', estado: 3 },
-        { cedula: '3363715', estado: 4 }
+        { cedula: '1', estado: 1},
+        { cedula: '2', estado: 2},
+        { cedula: '3', estado: 3},
+        { cedula: '4', estado: 4},
+        { cedula: '5', estado: 5 },
+        { cedula: '6', estado: 6 },
+        { cedula: '7', estado: 7 },
+        { cedula: '8', estado: 8 },
+        { cedula: '9', estado: 9 }
+
+
     ]
 
 
@@ -23,7 +33,7 @@ btnconsultar.onclick = function ola() {
     console.log(typeof datos[1].cedula);
     console.log(datos[1].cedula);
 
-    for (var x = 0; x < 4; x++) {
+    for (var x = 0; x < 12; x++) {
 
         if(datos[x].cedula==i){
             estadofinal=datos[x].estado;
@@ -55,6 +65,12 @@ btnconsultar.onclick = function ola() {
             break;
         case 7:
             imgcambio.src = "./img/estados/7.jpg";
+            break;
+        case 8:
+            imgcambio.src = "./img/estados/8.jpg";
+            break;
+        case 9:
+            imgcambio.src = "./img/estados/9.jpg";
             break;
 
         default:
